@@ -1,4 +1,15 @@
 .masthead {
+  img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 60%; 
+    width: 100px;
+    height: 100px;
+    margin: auto; 
+    
+  }
   min-height: 30rem;
   position: relative;
   display: table;
@@ -6,11 +17,8 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  // background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
-  background:rgba(239, 168, 0, 1);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background:rgb(243, 193, 78);
+  
   h1 {
     font-size: 4rem;
     margin: 0;

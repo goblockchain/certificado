@@ -93,10 +93,18 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #efa800;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #f3c14e;
+}
+
+.masthead img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 60%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
 
 .masthead h1 {
